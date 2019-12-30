@@ -7,7 +7,7 @@ build = "build.rs"
 exclude = ["artifacts.json", "index.node"]
 
 [lib]
-name = "mailslot_js"
+name = "mailslot"
 crate-type = ["cdylib"]
 
 [build-dependencies]

@@ -17,6 +17,9 @@
     "install": "node-pre-gyp install --fallback-to-build=false || neon build --release",
     "publish": "node-pre-gyp package && node-pre-gyp-github publish"
   },
+  "repository": {
+    "url": "https://github.com/FreeMasen/mailslot.js.git"
+  },
   "binary": {
     "module_name": "index",
     "module_path": "./native/",
